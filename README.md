@@ -14,6 +14,7 @@ It has first class support for the Wren programming language as well as Wasm plu
 The UI is broken up into workspaces, not unlike [FreeCAD](), but all of the computationally expensive algorithms are handled by Zig instead of a (relatively slow) scripting language.
 All custom file formats are saved as XML data and are designed to be accessed by Wren.
 Documents such as blueprints and setup sheets are generated through markdown templates, typically abstracted by a GUI.
+The engineering kernels are designed such that they can be built as separate programs.
 
 ### Core Libraries
 The engineering kernels are built off of a few core libraries that provide reusable pieces of code.
